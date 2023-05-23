@@ -1,0 +1,16 @@
+
+
+:root{
+    --first-color: rgb(24, 117, 255);
+    --first-color-light: rgb(168, 216, 255);
+    --second-color: rgb(135, 91, 255);
+}
+
+body{
+    color: white;
+}
+
+.header-top{
+    background-color: var(--first-color);
+}
+    

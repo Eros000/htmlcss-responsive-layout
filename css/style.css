@@ -1,20 +1,124 @@
-/* 
-    RESET
-*/
-* {
+
+@import url(colors.css);
+
+
+
+
+
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+ *,
+ *::before,
+ *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+ }
+ 
+ body {
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ 
+ 
+ h1 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+ }
+ 
+ h2 {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    
+ }
+ 
+ h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+ }
+ 
+ img {
+    max-width: 100%;
+ }
+ 
+ /************************************************
+     UTILITIES
+  ************************************************/
+ 
+ /* LAYOUT */
+ .container {
+     width: 1140px;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+ 
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .col {
+     padding-left: 1rem;
+     padding-right: 1rem;
+ }
+ 
+ /* TEXT */
+ .text-center {
+     text-align: center;
+ }
+ 
+ /************************************************
+     SITE SECTIONS
+  ************************************************/
+ 
+ /* HEADER */
 
-/* 
-    GENERAL
-*/
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+ .header-top{
+    display: flex;
+    justify-content: space-between;
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+ }
+ 
+
+
+
+
+
+ 
+ /* SECTION */
+ 
+
+
+
+
+
+
+
+
+ 
+ /* SECTION */
+ 
+ 
+ /************************************************
+     SOLUZIONE RESPONSIVE
+  ************************************************/
+ 
+ 
+ /*TABLET*/
+ 
+  @media screen and (min-width: 768px){
+ 
+     
+ 
+ 
+  }
+ 
+ /*DESKTOP*/
+ 
+  @media screen and (min-width: 992px){
+ 
+     
+ 
+ 
+     
+  }
