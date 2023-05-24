@@ -10,7 +10,45 @@ body{
     color: white;
 }
 
+
+/* HEADER */
+
 .header-top{
     background-color: var(--first-color);
 }
-    
+
+
+
+/* MAIN */
+
+
+/* SECTION 1 */
+
+.card{
+    background-color: var(--first-color-light);
+}
+
+
+/* SECTION 2 */
+
+.section-2{
+    background-color: var(--second-color);
+}
+
+
+.card-white{
+    background-color: white;
+}
+
+
+/* SECTION 3 */
+
+.card-violet{
+    background-color: var(--second-color);
+}
+
+/* SECTION 4 */
+
+.section-4{
+    background-color: var(--second-color);
+}

@@ -6,87 +6,100 @@
 
 
 /*************************************************
-    GENERAL STYLES
- *************************************************/
- *,
- *::before,
- *::after {
+GENERAL STYLES
+*************************************************/
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- 
- body {
-    font-family: 'Nunito Sans', sans-serif;
- }
- 
- 
- h1 {
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
- }
- 
- h2 {
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-    
- }
- 
- h3 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
- }
- 
- img {
-    max-width: 100%;
- }
- 
- /************************************************
-     UTILITIES
-  ************************************************/
- 
- /* LAYOUT */
- .container {
-     width: 1140px;
-     margin: 0 auto;
-     padding: 0 20px;
- }
- 
- .row {
-     display: flex;
-     flex-wrap: wrap;
- }
- 
- .col {
-     padding-left: 1rem;
-     padding-right: 1rem;
- }
- 
- /* TEXT */
- .text-center {
-     text-align: center;
- }
- 
- /************************************************
-     SITE SECTIONS
-  ************************************************/
- 
- /* HEADER */
+}
 
- .header-top{
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 100%;
+    height: 15.625rem;
+    margin: 1.25rem .625rem;
+}
+
+.card-white{
+    width: 100%;
+    height: 15.625rem;
+    margin: 1.25rem .625rem;
+    
+}
+
+.card-violet{
+    width: 100%;
+    height: 15.625rem;
+    margin: 1.25rem .625rem;
+}
+
+
+/************************************************
+SITE SECTIONS
+************************************************/
+
+/* HEADER */
+
+.header-top{
     display: flex;
     justify-content: space-between;
 
- }
- 
+}
+
+.header-nav{
+    display: none;
+}
+
+
+/* MAIN */
 
 
 
 
 
- 
- /* SECTION */
- 
+/* SECTION 1 */
+
+
+
+/* SECTION 2 */
+
+
+.strategic-plan-card{
+    height: 21.875rem;
+
+}
+
+
+
+/* SECTION 3 */
+
+.testimonials{
+    height: 15.625rem;
+}
+
+
+/* SECTION 4 */
+
+.section-4-title{
+    height: 12.5rem;
+}
 
 
 
@@ -95,30 +108,58 @@
 
 
 
- 
- /* SECTION */
- 
- 
- /************************************************
-     SOLUZIONE RESPONSIVE
-  ************************************************/
- 
- 
- /*TABLET*/
- 
-  @media screen and (min-width: 768px){
- 
-     
- 
- 
-  }
- 
- /*DESKTOP*/
- 
-  @media screen and (min-width: 992px){
- 
-     
- 
- 
-     
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+************************************************/
+
+
+/*TABLET*/
+
+@media screen and (min-width: 768px){
+
+    
+
+
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 992px){
+
+/*HEADER*/
+
+.header-nav{
+    display: block;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+    
+}
