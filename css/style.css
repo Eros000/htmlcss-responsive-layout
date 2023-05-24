@@ -102,27 +102,20 @@ SITE SECTIONS
 }
 
 
+/* SECTION 5 */
+
+
+
+/* FOOTER */
+
+
+
+/*FOOTER-TOP*/
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*FOOTER-BOTTOM*/
 
 
 
@@ -141,7 +134,32 @@ SITE SECTIONS
 
 @media screen and (min-width: 768px){
 
+    /*MAIN*/
+
+
+    /*sezione-1*/
+
+    .card{
+        width: 30%;
+    }
     
+    .card-big{
+        width: 60%;
+    }
+
+    /*sezione-2*/
+
+    /*sezione-3*/
+
+
+    /*sezione-4*/
+
+    .section-4 .cards .card-white{
+        width: 45%;
+    }
+
+
+
 
 
 }
@@ -150,16 +168,74 @@ SITE SECTIONS
 
 @media screen and (min-width: 992px){
 
-/*HEADER*/
+    /*HEADER*/
 
-.header-nav{
-    display: block;
+    .header-nav{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    /*MAIN*/
+
+    .container{
+        max-width: 71.25rem;
+        margin: 0 auto;
+    }
+
+
+    /*sezione-2*/
+
+    .strategic-plan-card{
+        width: 45%;
+    }
+
+    .section-2 .cards .card-white{
+        width: 45%;
+    }
+
+
+    /*sezione-3*/
+
+
+
+
+
+    /*sezione-4*/
+
+    .section-4 .cards .card-white{
+        width: 30%;
+    }
+
+
+
+
+
+
+
+
+
 }
-
-.hamburger{
-    display: none;
-}
-
-
     
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
