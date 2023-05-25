@@ -15,6 +15,7 @@ body{
 
 .header-top{
     background-color: var(--first-color);
+    color: white;
 }
 
 

@@ -33,8 +33,7 @@ img {
 
 .card{
     width: 100%;
-    height: 15.625rem;
-    margin: 1.25rem .625rem;
+    margin: 0.625rem 0.625rem;
 }
 
 .card-white{
@@ -57,24 +56,83 @@ SITE SECTIONS
 
 /* HEADER */
 
-.header-top{
+.header-top .container{
     display: flex;
     justify-content: space-between;
+    padding: 1.25rem 0.625rem;
 
+}
+
+.header-logo img{
+    vertical-align: middle;
 }
 
 .header-nav{
     display: none;
+    vertical-align: middle;
+}
+
+.header-nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.header-nav ul li{
+    padding: 0 1.25rem;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header-nav ul li a button{
+    padding: 0.625rem 1.25rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    
+}
+
+
+.hamburger i{
+    font-size: 1.875rem;
+
 }
 
 
 /* MAIN */
 
 
-
-
-
 /* SECTION 1 */
+
+.cards h3{
+    color: var(--first-color);
+    padding-bottom: .9375rem;
+    text-align: center;
+
+
+}
+
+.cards p{
+    color: black;
+    text-align: center;
+}
+
+.cards a button{
+    padding: .625rem 1.25rem;
+    font-size: 15px;
+    
+
+} 
+    
+
+
+
+
+
+
 
 
 
@@ -140,11 +198,15 @@ SITE SECTIONS
     /*sezione-1*/
 
     .card{
-        width: 30%;
+        width: 31.5%;
     }
     
     .card-big{
-        width: 60%;
+        width: 64%;
+    }
+
+    .cards{
+        margin-right: 0;
     }
 
     /*sezione-2*/
